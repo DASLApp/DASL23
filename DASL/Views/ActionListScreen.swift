@@ -26,18 +26,18 @@ class ActionListScreen: UIViewController {
     func createArray() -> [Gif] {
         var tempGifs: [Gif] = []
         
-        let gifA = Gif(title: "cooking")
+        let gifA = Gif(title: "cook")
         let gifB = Gif(title: "cry")
         let gifC = Gif(title: "dance")
         let gifD = Gif(title: "draw")
-        let gifE = Gif(title: "drinking")
-        let gifF = Gif(title: "eating")
+        let gifE = Gif(title: "drink")
+        let gifF = Gif(title: "eat")
         let gifG = Gif(title: "jump")
-        let gifH = Gif(title: "laughing")
+        let gifH = Gif(title: "laugh")
         let gifI = Gif(title: "play")
         let gifJ = Gif(title: "read")
         let gifK = Gif(title: "run")
-        let gifL = Gif(title: "sleeping")
+        let gifL = Gif(title: "sleep")
         let gifM = Gif(title: "study")
         let gifN = Gif(title: "walk")
         let gifO = Gif(title: "write")
