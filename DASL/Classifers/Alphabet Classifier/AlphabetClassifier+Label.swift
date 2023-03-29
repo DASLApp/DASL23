@@ -9,8 +9,8 @@ extension Alphabet {
     
     enum Label: String, CaseIterable {
         case A = "A"
-        case B = "B"
         case C = "C"
+        case B = "B"
         case D = "D"
         case E = "E"
         case F = "F"
@@ -34,7 +34,6 @@ extension Alphabet {
         case X = "X"
         case Y = "Y"
         case Z = "Z"
-
 //        /// A negative class that represents irrelevant actions.
 //        case otherAction = "Other Action"
 

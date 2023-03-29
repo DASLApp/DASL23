@@ -63,7 +63,7 @@ extension ActionPrediction {
     /// - Parameter otherLabel: A label defined by the application, not the
     /// action classifier model.
     /// Only the `lowConfidence()` and `noPerson()` type methods use this initializer.
-    private init(_ otherLabel: AppLabel) {
+    private init(_ otherLabel: AppLabel){
         label = otherLabel.rawValue
         confidence = nil
     }
